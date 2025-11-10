@@ -5,25 +5,45 @@ export default function Bitacora() {
       <div className="card">
         <h2>🗒️ Bitácora del Proyecto</h2>
         <p>
-          Esta sección contiene una descripción del proceso de desarrollo del proyecto,
-          incluyendo decisiones de diseño, dificultades encontradas y cambios importantes
-          realizados durante la implementación. 
-          La bitácora comenzó en el TP1 y se amplía en el TP2, registrando la evolución del trabajo
+          Esta sección contiene una descripción del proceso de desarrollo del proyecto, incluyendo decisiones de diseño, dificultades encontradas y cambios importantes
+          realizados durante la implementación. La bitácora comenzó en el TP1, se amplía y migra a React en el TP2 y finalmente incorpora mejoras dinámicas y visuales adaptadas a la temática cinéfila, registrando la evolución del trabajo
           ahora realizado por <b>Neuyin</b> y <b>Erick</b>.
         </p>
       </div>
 
+      {/* REGISTROS TP1 CON TIMELINE */}
+      <div className="card" style={{ marginTop: "1rem" }}>
+        <h3 className="timeline-title">🚀 Registros TP1</h3>
+        <div className="timeline">
+          <div className="timeline-item">
+            <div className="timeline-icon">🎨</div>
+            <p>05/09/25 — Se definió el esquema de colores y tipografía.</p>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-icon">🎬</div>
+            <p>07/09/25 — Implementadas animaciones en la portada.</p>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-icon">💻</div>
+            <p>12/09/25 — Ajustes de diseño responsive.</p>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-icon">👥</div>
+            <p>18/09/25 — Creación de páginas individuales de cada integrante.</p>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-icon">🧩</div>
+            <p>25/09/25 — Mejoras y correcciones generales.</p>
+          </div>
+        </div>
+      </div>
+
       {/* REGISTROS TP1 */}
       <div className="card" style={{ marginTop: "1rem" }}>
-        <h3>📅 Registros TP1</h3>
-        <ul style={{ marginTop: ".5rem" }}>
-          <li>05/09/25 — Se definió el esquema de colores y tipografía.</li>
-          <li>07/09/25 — Implementadas animaciones en la portada.</li>
-          <li>12/09/25 — Ajustes de diseño responsive.</li>
-          <li>18/09/25 — Creación de páginas individuales de cada integrante.</li>
-          <li>25/09/25 — Mejoras y correcciones generales.</li>
-        </ul>
-
         <h4 style={{ marginTop: "1rem" }}>🧠 Decisiones de Diseño</h4>
         <p>
           En el TP1 se utilizó una paleta de tonos azules y grises, junto con la tipografía <b>Roboto</b> para transmitir profesionalismo y claridad. Se implementó un diseño responsive para 
@@ -124,6 +144,65 @@ export default function Bitacora() {
         </p>
       </div>
 
+      {/* REGISTROS TP3 CON TIMELINE */}
+      <div className="card" style={{ marginTop: "1rem" }}>
+        <h3 className="timeline-title">🚀 Registros TP3</h3>
+        <div className="timeline">
+          <div className="timeline-item">
+            <div className="timeline-icon">⚛️</div>
+            <p>03/11/25 — Se migra proyecto a repositorio nuevo.</p>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-icon">🎨</div>
+            <p>06/11/25 — El equipo se reune para definir temática y redefinir diseño del sitio.</p>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-icon">💻</div>
+            <p>09/11/25 — Se actualiza la bitácora con información sobre entrega final.</p>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-icon">👥</div>
+            <p>09/11/25 — Se implementan ajustes visuales relacionados a la temática de cine.</p>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-icon">🧩</div>
+            <p>09/11/25 — Se agregan animaciones para cumplir con la consigna.</p>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-icon">🔄</div>
+            <p>10/11/25 — Se modifican logotipo y nombre para adaptar el proyecto a la temática seleccionada.</p>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-icon">⚙️</div>
+            <p>10/11/25 — Se incorporan Skill bars + redes animadas.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* REGISTROS TP3 */}
+      <div className="card" style={{ marginTop: "1rem" }}>
+        <h4 style={{ marginTop: "1rem" }}>🧠 Decisiones de Diseño</h4>
+        <p>
+          Se optó por un modo claro retro ochentoso con tipografía geométrica, tonos pastel y detalles VHS. El modo oscuro tipo sala de proyección utiliza degradados profundos, reflejos tenues y transiciones que evocan la iluminación de un cine. Se <b>rediseñó</b> la barra lateral y los componentes visuales para reforzar la temática <b>cinéfila.</b> La paleta de colores combina lilas, magentas y tonos oscuros con reflejos de neón suave.
+        </p>
+
+        <h4 style={{ marginTop: "1rem" }}>⚙️ Dificultades Encontradas</h4>
+        <p>
+          La principal dificultad fue la sincronización entre ramas y repositorios, que requirió corregir errores de commits en GitHub. Se presentó un <b>desafío técnico</b> en la implementación responsiva del menú hamburguesa y en mantener la correcta alineación del contenido al ocultar la barra lateral. También se ajustó el sistema de temas dinámicos (modo claro/oscuro) para evitar conflictos visuales en transiciones.
+        </p>
+
+        <h4 style={{ marginTop: "1rem" }}>🔄 Cambios Importantes</h4>
+        <p>
+          <b>Rebranding</b> del equipo con nuevo nombre y logo adaptados a la temática cinematográfica. Incorporación de animaciones CSS y transiciones suaves en tarjetas, menús y botones. Adición de buscador y <b>filtros dinámicos</b> en el listado JSON. Mejora visual integral con modo retro y modo cine oscuro, reforzando la identidad del sitio.
+        </p>
+      </div>
+
       {/* ESTRUCTURA FINAL */}
       <div className="card" style={{ marginTop: "1rem" }}>
         <h3>📂 Estructura del Sistema</h3>
@@ -134,7 +213,6 @@ export default function Bitacora() {
           <li>👩‍💻 Neuyin – Perfil personal con identidad visual base del diseño.</li>
           <li>🏆 Películas (JSON) – Películas premiadas mostradas dinámicamente.</li>
           <li>⛩️ API – Conexión con datos externos de anime.</li>
-          
         </ul>
       </div>
     </section>

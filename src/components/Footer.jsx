@@ -7,7 +7,7 @@ export default function Footer() {
       <p className="footer-text">
         <strong>Desarrollo de Sistemas Web (Front End) - Proyecto académico IFTS29</strong>
       </p>
-      <p><strong>⚡ © 2025CodeBolts Six: Evolution</strong></p>
+      <p><strong>⚡ © 2025 CodeBolts Six: Evolution</strong></p>
     </footer>
   );
 }

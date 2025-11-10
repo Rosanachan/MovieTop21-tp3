@@ -87,12 +87,13 @@ export default function Home() {
       <div className="card">
         <h2>🎯 Objetivos</h2>
         <ul>
-          <li>.</li>
-          <li>.</li>
-          <li>.</li>
-           <li>.</li>
-          <li>.</li>
-          <li>.</li>
+          <li>Mejora de la Interfaz: Animaciones Suaves.</li>
+          <li>Búsqueda/Filtrado en JSON Local.</li>
+          <li>Paginación para la API Externa.</li>
+           <li>Galería de Imágenes Interactiva.</li>
+          <li>Barras de Progreso de Habilidades.</li>
+          <li>Botones de Redes Sociales Animados.</li>
+          <li>Carrusel de Proyectos Destacados.</li>
           <li>Publicar en Vercel con README y bitácora actualizados.</li>
         </ul>
       </div>
