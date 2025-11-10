@@ -33,30 +33,45 @@ export default function PerfilNeuyin() {
               <p>
                 Desde 2012 tengo como hobbie tomar fotos y grabar videos para crear estilos creativos y narrativos con postproducción.
               </p>
+            <div className="card-skill-bar">
+              <span className="card-skill-progress" style={{ "--progress": "90%" }}></span>
+            </div>
             </div>
             <div className="glass-card">
               <h3>🎉 Decoración</h3>
               <p>
                 Puedo pasar horas realizando tareas manuales decorativas. Me gusta darle un toque personal a todo lo que hago.
               </p>
+            <div className="card-skill-bar">
+              <span className="card-skill-progress" style={{ "--progress": "90%" }}></span>
+            </div>
             </div>
             <div className="glass-card">
               <h3>💡 Creatividad Digital</h3>
               <p>
                 Diseño, creo animaciones y lo uno a la tecnología para crear proyectos con una estética y dinamismo diferentes.
               </p>
+            <div className="card-skill-bar">
+              <span className="card-skill-progress" style={{ "--progress": "90%" }}></span>
+            </div>
             </div>
             <div className="glass-card">
               <h3>🗂️ Organización</h3>
               <p>
-                Soy muy organizada. Agendo mis procesos, mis obligaciones y actividades. Me ha servido para ser puntual y eficiente.
+                Soy muy organizada. Agendo mis procesos, mis obligaciones y actividades. Me ha servido para ser puntual y eficiente con mis tareas.
               </p>
+            <div className="card-skill-bar">
+              <span className="card-skill-progress" style={{ "--progress": "80%" }}></span>
+            </div>
             </div>
             <div className="glass-card">
               <h3>🧠 Autonomía de aprendizaje</h3>
               <p>
                 Soy autodidacta, curiosa y perseverante. Siempre busco mejorar y aprender cosas nuevas. 
               </p>
+            <div className="card-skill-bar">
+              <span className="card-skill-progress" style={{ "--progress": "75%" }}></span>
+            </div>
             </div>
           </div>
         </div>

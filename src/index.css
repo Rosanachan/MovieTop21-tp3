@@ -702,3 +702,49 @@ body.modo-oscuro .social-icons a {
 body.modo-oscuro .social-icons a:hover {
   box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
 }
+
+/*Mejora 3: Barras de progreso dentro de cada card*/
+.glass-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 1.2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Barra de progreso interna */
+.card-skill-bar {
+  margin-top: 1rem;
+  height: 8px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card-skill-progress {
+  display: block;
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--color-secundario), var(--color-acento));
+  border-radius: 5px;
+  animation: fillCardBar 1.5s ease forwards;
+}
+
+@keyframes fillCardBar {
+  from { width: 0%; }
+  to { width: var(--progress); }
+}
+
+/* Modo oscuro */
+body.modo-oscuro .glass-card {
+  background: rgba(255, 255, 255, 0.1);
+}
+body.modo-oscuro .card-skill-bar {
+  background: rgba(255, 255, 255, 0.2);
+}

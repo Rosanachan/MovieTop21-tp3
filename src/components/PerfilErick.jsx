@@ -8,7 +8,7 @@ export default function PerfilErick() {
         <div className="hero-content">
           <img
             src="/images/erick.png"
-            alt="Neuyin"
+            alt="Erick"
             className="foto-perfil"
           />
           <h1 className="titulo-neuyin">Buenas, soy Erick Romero 👾</h1>
