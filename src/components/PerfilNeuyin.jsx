@@ -147,6 +147,12 @@ export default function PerfilNeuyin() {
           ></iframe>
         </div>
       </section>
+
+      <div className="social-icons">
+        <a href="#" title="LinkedIn" aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></a>
+        <a href="#" title="GitHub" aria-label="GitHub"><i className="fab fa-github"></i></a>
+        <a href="#" title="Instagram" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
+      </div>
     </section>
   );
 }
