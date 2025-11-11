@@ -45,6 +45,14 @@ Además, incorporamos el consumo de una API pública donde conocerás las pelíc
 
 ---
 
+## 🧩 Capturas de pantalla
+
+- 👩‍💻**Neuyin Herrera**
+
+![Captura TP1](./public/assets/captura1.png)
+
+---
+
 ## Estructura de archivos del proyecto
 ```bash
 Ccodeboltssix-tp3/
@@ -98,11 +106,4 @@ Ccodeboltssix-tp3/
 ├── README.md
 └── vite.config.js
 
----
-
-## 🧩 Capturas de pantalla
-
-- 👩‍💻**Neuyin Herrera**
-
-![Captura TP1](./public/assets/captura1.png)
 
